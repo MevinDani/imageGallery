@@ -269,22 +269,30 @@ header .buttons i {
 
 @media (max-width:410px) {
     .lightbox .wrapper i {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .lightbox .wrapper span {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     header .buttons i {
-        width: 20px;
-        height: 20px;
+        width: 40px;
+        height: 40px;
         color: #fff;
         cursor: pointer;
         text-align: center;
-        line-height: 20px;
+        line-height: 40px;
         background: #8a6cff;
         font-size: 1.2rem;
         display: inline-block;
+    }
+
+    .gallery .images {
+        margin-top: 120px;
+    }
+
+    .images .card .details {
+        bottom: 0px;
     }
 }
